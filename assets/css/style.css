@@ -16,6 +16,21 @@ body {
 
 /* headers and logos */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Tinos, sarif;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+    
 }
