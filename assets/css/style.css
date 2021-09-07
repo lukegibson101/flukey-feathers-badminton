@@ -12,6 +12,7 @@
 
 body {
     font-family: Roboto, sans-sarif;
+    background-color: whitesmoke;
 }
 
 /* headers and logos */
@@ -26,23 +27,59 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    }
+}
 
 #hero-image {
-    
+
     background: url('../images/hero-image.jpg') no-repeat center center;
     height: 100%;
     width: 100%;
-    }
+}
 
 #club-name {
     top: 30px;
     left: 50px;
-    width:250px;
+    width: 250px;
     position: absolute;
 }
 
 #club-name img {
-    width:100%;
+    width: 100%;
 }
 
+/* navigation */
+
+#navigation {
+    width: 100%;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+
+    float: left;
+    width: 25%;
+}
+
+#navigation a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 150%;
+    padding: 10px;
+    background-color: #990000;
+}
+
+#navigation a:hover {
+    background-color: #000;
+}
+
+#navigation a.active {
+    text-decoration: underline;
+}
