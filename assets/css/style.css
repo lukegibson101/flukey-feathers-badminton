@@ -1,0 +1,21 @@
+/* import google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&display=swap');
+
+/* Remove default browser padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto, sans-sarif;
+}
+
+/* headers and logos */
+
+h1, h2 {
+    font-family: Tinos, sarif;
+}
