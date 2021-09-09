@@ -130,6 +130,7 @@ footer {
 .why-play {
     height: 37.5rem;
     clear:both;
+    width:100%;
 }
 
 .why-play-header {
@@ -139,24 +140,33 @@ footer {
     }
 
 .left-why {
-    padding-top:2rem;
+    padding-top: 2rem;
     width: 33%;
     float: left;
-}
+    }
 
 .left-why-content {
-    
-}
+    clear:both;
+    width:60%;
+    float:right;
+    }
 
 .right-why {
     padding-top:2rem;
     width:33%;
     float:right;
+    }
+
+.right-why-content {
+    clear:both;
+    width:60%;
+    float:left;
+    
 }
 
 .center-why {
-    margin: 0 auto;
-    width:33%;
+    margin: auto;
+    
 }
 
 .center-why-container {
