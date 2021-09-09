@@ -233,11 +233,16 @@ hr {
 }
 
 
+
+/* tablets */
+
 @media screen and (max-width: 768px) {
     body {
-        font-size:15px;
+        font-size: 15px;
     }
 }
+
+/* Mobiles */
 
 @media screen and (max-width: 600px) {
 
@@ -249,7 +254,7 @@ hr {
 
         background: url('../images/hero-image-mobile.jpg') no-repeat center center;
     }
-    
+
     #club-name {
         top: 5%;
         left: 5%;
@@ -259,22 +264,25 @@ hr {
 
     #navigation li {
 
-        display:block;
-        width:100%;
-    
+        display: block;
+        width: 100%;
+
     }
 
     .why-play-header {
         padding-bottom: 1em;
     }
 
-    .left-why, .right-why {
+    .left-why,
+    .right-why {
         width: 90%;
-        padding:0;
+        padding: 0;
     }
 
 
 }
+
+/* to readjust image size for smaller screens */
 
 @media screen and (max-width: 400px) {
 
@@ -282,5 +290,5 @@ hr {
         max-width: 15rem;
         max-height: 15rem;
     }
-    
+
 }
