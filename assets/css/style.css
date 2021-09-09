@@ -227,5 +227,15 @@ hr {
     .center-why {
         clear: both;
     }
+
+    #footer-links {
+        text-align: center;
+    }
 }
 
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size:15px;
+    }
+}
