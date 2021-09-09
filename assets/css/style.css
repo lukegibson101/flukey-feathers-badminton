@@ -138,3 +138,39 @@ footer {
     text-align:center;
     }
 
+.left-why {
+    padding-top:2rem;
+    width: 33%;
+    float: left;
+}
+
+.left-why-content {
+    
+}
+
+.right-why {
+    padding-top:2rem;
+    width:33%;
+    float:right;
+}
+
+.center-why {
+    margin: 0 auto;
+    width:33%;
+}
+
+.center-why-container {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+
+#center-why-play-image {
+    background: url('../images/rackets.jpg') no-repeat center center;
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
