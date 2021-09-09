@@ -192,3 +192,11 @@ hr {
     border-radius: 50%;
     overflow: hidden;
 }
+
+#center-why-flukey-image {
+    background: url('../images/why-flukey-feathers.jpg') no-repeat center center;
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
