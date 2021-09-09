@@ -264,9 +264,16 @@ hr {
     
     }
 
+    .why-play-header {
+        padding-bottom: 1em;
+    }
+
     .left-why, .right-why {
         width: 90%;
+        padding:0;
     }
+
+
 }
 
 @media screen and (max-width: 400px) {
