@@ -125,4 +125,16 @@ footer {
     color: #f5f5f5;
 }
 
+/* why play */
+
+.why-play {
+    height: 37.5rem;
+    clear:both;
+}
+
+.why-play-header {
+    font-size: 200%;
+    padding-top: 1rem;
+    text-align:center;
+    }
 
