@@ -12,8 +12,8 @@
 
 body {
     font-family: Roboto, sans-sarif;
-    background-color: whitesmoke;
-}
+    background-color: #f5f5f5;
+    }
 
 /* headers and logos */
 
@@ -39,7 +39,7 @@ h2 {
 #club-name {
     top: 30px;
     left: 50px;
-    width: 250px;
+    width: 350px;
     position: absolute;
 }
 
@@ -68,7 +68,7 @@ h2 {
 
 #navigation a {
     display: block;
-    color: whitesmoke;
+    color: #f5f5f5;
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -89,6 +89,40 @@ h2 {
 
 footer {
     background-color: #990000;
-    color: whitesmoke;
+    color: #f5f5f5;
+    width:100%;
+    padding: 1rem 0;
 }
+
+#social-networks {
+    text-align:center;
+    font-size: 120%;
+}
+
+#social-networks a  {
+    text-decoration: underline;
+    color: #f5f5f5;
+}
+
+#footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    text-align: right;
+    
+   
+}
+
+#footer-links li {
+    display: inline-block;
+    color: #f5f5f5;
+    margin-right:1rem;
+}
+
+#footer-links a {
+    text-decoration: underline;
+    color: #f5f5f5;
+}
+
 
