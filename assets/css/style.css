@@ -41,7 +41,6 @@ h2 {
     top: 1.875rem;
     left: 3.125rem;
     width: 21.875rem;
-    ;
     position: absolute;
 }
 
@@ -237,5 +236,24 @@ hr {
 @media screen and (max-width: 768px) {
     body {
         font-size:15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #hero-outer {
+        height: 20em;
+    }
+
+    #hero-image {
+
+        background: url('../images/hero-image-mobile.jpg') no-repeat center center;
+    }
+    
+    #club-name {
+        top: 5%;
+        left: 5%;
+        width: 50%;
+        position: absolute;
     }
 }
