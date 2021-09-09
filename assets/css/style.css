@@ -267,8 +267,13 @@ hr {
     .left-why, .right-why {
         width: 90%;
     }
+}
 
-    
+@media screen and (max-width: 400px) {
 
+    .center-why-container {
+        max-width: 15rem;
+        max-height: 15rem;
+    }
     
 }
