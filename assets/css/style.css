@@ -128,7 +128,7 @@ footer {
 /* why play */
 
 .why-play {
-    height: 37.5rem;
+    height: 100%;
     clear:both;
     width:100%;
 }
@@ -147,8 +147,9 @@ footer {
 
 .left-why-content {
     clear:both;
-    width:60%;
+    width:80%;
     float:right;
+    padding-bottom: 2rem;
     }
 
 .right-why {
@@ -159,8 +160,9 @@ footer {
 
 .right-why-content {
     clear:both;
-    width:60%;
+    width:80%;
     float:left;
+    padding-bottom: 2rem;
     
 }
 
