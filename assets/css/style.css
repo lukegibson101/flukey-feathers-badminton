@@ -228,7 +228,7 @@ hr {
     background-position: center;
     overflow:hidden;
     margin-top:1rem;
-    padding:0 25% 0 25%;
+    padding:0 20% 0 20%;
     
 }
 
@@ -286,6 +286,11 @@ hr {
 
     #footer-links {
         text-align: center;
+    }
+
+    #times {
+        padding:0 10% 0 10%;
+        
     }
 }
 
