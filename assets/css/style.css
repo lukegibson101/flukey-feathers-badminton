@@ -236,15 +236,17 @@ hr {
     margin: 0 auto;
     width:33%;
     height:20rem;
-    background-color: rgba(73, 74, 77, .9);
+    background-color: rgba(153, 0, 0, .9);
     box-sizing: border-box;
     float:left;
     color:#f5f5f5;
+    padding: 2rem 0 0 1rem;
+    font-size:120%;
     }
 
-#times h3 {
-    
-    font-size: 200%;
+.sessions-title {
+   margin-bottom:1rem; 
+   font-size:150%;
 }    
 
 .border-left {
