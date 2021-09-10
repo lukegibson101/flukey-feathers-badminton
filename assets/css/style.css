@@ -202,6 +202,22 @@ hr {
     overflow: hidden;
 }
 
+/* Club sessions */
+
+.sessions-section {
+    height:100%;
+    width:100%;
+    clear:both;
+}
+
+.sessions-header {
+    font-size: 200%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+
+
 /* media queries */
 
 /* laptop size */
