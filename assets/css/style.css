@@ -205,20 +205,20 @@ hr {
 /* Club sessions */
 
 .sessions-section {
-    height:100%;
-    width:100%;
-    clear:both;
-    }
+    height: 100%;
+    width: 100%;
+    clear: both;
+}
 
 .sessions-header {
     font-size: 200%;
     text-align: center;
-    padding-top:1rem;
+    padding-top: 1rem;
 }
 
 #map {
-    margin-top:1rem;
-    width:100%;
+    margin-top: 1rem;
+    width: 100%;
     height: 20rem;
 }
 
@@ -226,29 +226,29 @@ hr {
     background: url('../images/when-do-we-play.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    overflow:hidden;
-    margin-top:1rem;
-    padding:0 20% 0 20%;
-    
-    
+    overflow: hidden;
+    margin-top: 1rem;
+    padding: 0 20% 0 20%;
+
+
 }
 
-#times > div {
+#times>div {
     margin: 0 auto;
-    width:33.3%;
-    height:20rem;
+    width: 33.3%;
+    height: 20rem;
     background-color: rgba(153, 0, 0, .9);
     box-sizing: border-box;
-    float:left;
-    color:#f5f5f5;
+    float: left;
+    color: #f5f5f5;
     padding: 2rem 1rem 1rem;
-    font-size:120%;
-    }
+    font-size: 120%;
+}
 
 .sessions-title {
-   margin-bottom:1rem; 
-   font-size:150%;
-}    
+    margin-bottom: 1rem;
+    font-size: 150%;
+}
 
 .border-left {
     border-left: 2px #f5f5f5 solid;
@@ -296,8 +296,8 @@ hr {
     }
 
     #times {
-        padding:0 10% 0 10%;
-        
+        padding: 0 10% 0 10%;
+
     }
 }
 
@@ -311,10 +311,11 @@ hr {
     }
 
     #times {
-        padding:0;
+        padding: 0;
     }
 
-    .border-left, .border-right {
+    .border-left,
+    .border-right {
         border: 0;
     }
 }
@@ -356,21 +357,18 @@ hr {
         padding: 0;
     }
 
-    #times > div {
+    #times>div {
         display: block;
-        width:100%;
-        height:100%;
+        width: 100%;
+        height: 100%;
     }
 
     .border-central {
-        border:0;
+        border: 0;
         border-top: 2px solid #f5f5f5;
         border-bottom: 2px solid #f5f5f5;
 
     }
-        
-    }
-
 
 }
 
