@@ -267,10 +267,9 @@ hr {
 /* join us */
 
 .join-us {
-    height: 100%;
-    width: 100%;
     clear: both;
-    background: url('../images/when-do-we-play.jpg');
+    background: url('../images/when-do-we-play.jpg') no-repeat center center;
+    background-size: cover;
     padding:1rem;
 }
 
@@ -279,8 +278,9 @@ form {
     max-width:48rem;
     margin: 0 auto;
     background-color: rgba(153, 0, 0, .9);
+    background-size: 100%;
     padding: 0 1rem 0 1rem;
-    border: 2px solid #2d302e;
+    border: 2px solid #f5f5f5;
     border-radius:5px;
     color: #f5f5f5;
     }
@@ -288,6 +288,11 @@ form {
     form > h1 {
         font-size:160%;
         text-align:center;
+    }
+
+    form > hr {
+        border-top: 2px solid #f5f5f5;
+        margin-top: 1rem;
     }
 
 legend {
@@ -313,6 +318,7 @@ input[type=tel] {
 label {
     margin-bottom: 5px;
     margin: .5rem 1rem 0 0;
+    line-height:1.5rem;
 }
 
 .float-left {
