@@ -521,4 +521,8 @@ form p {
         display:block;
     }
 
+    #gallery { 
+        column-count: 1;
+        }
+
 }
