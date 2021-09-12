@@ -267,10 +267,20 @@ hr {
 /* join us */
 
 form {
-    max-width:90%;
-    margin: 0 auto;
+    max-width:48rem;
+    margin: 0 auto 1rem;
     background-color:red;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    border: 2px solid #2d302e;
+    border-radius:5px;
+}
+
+legend {
+    font-size: 110%;
+    font-weight: 700;
+    padding: 1rem 0 5px;
+    text-transform:uppercase;
+    
 }
 
 input[type=text],
@@ -280,6 +290,11 @@ input[type=tel] {
     margin: 0 auto;
     border: 2px solid #2d302e;
     height: 1.5rem;
+    padding-left: 5px;
+}
+
+label {
+    margin-bottom: 5px;
 }
 
 .float-left {
