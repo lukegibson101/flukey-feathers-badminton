@@ -266,6 +266,22 @@ hr {
 
 /* join us */
 
+form {
+    max-width:90%;
+    margin: 0 auto;
+    background-color:red;
+    padding: 1rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width:90%;
+    margin: 0 auto;
+    border: 2px solid #2d302e;
+    height: 1.5rem;
+}
+
 .float-left {
     float:left;
 }
@@ -273,6 +289,7 @@ hr {
 .block {
     display:block;
 }
+
 
 
 /* media queries */
