@@ -446,6 +446,10 @@ form p {
     .border-right {
         border: 0;
     }
+
+    #gallery { 
+        column-count: 3;
+        }
 }
 
 /* Mobiles */
