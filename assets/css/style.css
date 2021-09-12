@@ -367,9 +367,22 @@ form p {
     display: inline;
 }
 
+input[type=radio], input[type=checkbox] {
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radio label, .checkbox label {
+    position:relative;
+    bottom: .35rem;
+}
+
 .form-footer {
     font-size: 80%;
 }
+
+
 
 /* Gallery */
 
@@ -496,6 +509,14 @@ form p {
         column-count: 2;
     }
 
+    .radio {
+        display: block;
+    }
+
+    
+
+
+
 }
 
 /* to readjust image size for smaller screens */
@@ -507,12 +528,9 @@ form p {
         max-height: 15rem;
     }
 
-    .radio {
-        display: block;
-    }
-
     #gallery {
         column-count: 1;
     }
 
+    
 }
