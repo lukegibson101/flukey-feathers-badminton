@@ -32,7 +32,7 @@ h2 {
 
 #hero-image {
 
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     height: 100%;
     width: 100%;
 }
@@ -183,7 +183,7 @@ hr {
 
 
 #center-why-play-image {
-    background: url('../images/rackets.jpg') no-repeat center center;
+    background: url('../images/rackets.webp') no-repeat center center;
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -191,7 +191,7 @@ hr {
 }
 
 #center-why-flukey-image {
-    background: url('../images/why-flukey-feathers.jpg') no-repeat center center;
+    background: url('../images/why-flukey-feathers.webp') no-repeat center center;
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -219,7 +219,7 @@ hr {
 }
 
 #times {
-    background: url('../images/when-do-we-play.jpg') no-repeat;
+    background: url('../images/when-do-we-play.webp') no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -261,7 +261,7 @@ hr {
 
 .join-us {
     clear: both;
-    background: url('../images/when-do-we-play.jpg') no-repeat center center;
+    background: url('../images/when-do-we-play.webp') no-repeat center center;
     background-size: cover;
     padding: 1rem;
 }
@@ -452,7 +452,7 @@ form p {
 
     #hero-image {
 
-        background: url('../images/hero-image-mobile.jpg') no-repeat center center;
+        background: url('../images/hero-image-mobile.webp') no-repeat center center;
     }
 
     #club-name {
