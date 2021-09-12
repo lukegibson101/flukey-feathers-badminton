@@ -321,6 +321,10 @@ input[type=tel]:focus {
     background-color: #c0c0c0;
 }
 
+.input {
+    margin-top: 0.5rem;
+}
+
 
 label {
     margin-bottom: 5px;
