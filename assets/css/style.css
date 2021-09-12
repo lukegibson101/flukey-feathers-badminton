@@ -502,6 +502,10 @@ form p {
 
     }
 
+    #gallery { 
+        column-count: 2;
+        }
+
 }
 
 /* to readjust image size for smaller screens */
