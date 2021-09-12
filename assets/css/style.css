@@ -31,7 +31,6 @@ h2 {
 }
 
 #hero-image {
-
     background: url('../images/hero-image.webp') no-repeat center center;
     height: 100%;
     width: 100%;
@@ -367,14 +366,16 @@ form p {
     display: inline;
 }
 
-input[type=radio], input[type=checkbox] {
+input[type=radio],
+input[type=checkbox] {
     margin-top: 0.5rem;
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.radio label, .checkbox label {
-    position:relative;
+.radio label,
+.checkbox label {
+    position: relative;
     bottom: .35rem;
 }
 
@@ -428,7 +429,6 @@ input[type=radio], input[type=checkbox] {
 
     #times {
         padding: 0 10% 0 10%;
-
     }
 }
 
@@ -464,7 +464,6 @@ input[type=radio], input[type=checkbox] {
     }
 
     #hero-image {
-
         background: url('../images/hero-image-mobile.webp') no-repeat center center;
     }
 
@@ -476,10 +475,8 @@ input[type=radio], input[type=checkbox] {
     }
 
     #navigation li {
-
         display: block;
         width: 100%;
-
     }
 
     .why-play-header {
@@ -502,7 +499,6 @@ input[type=radio], input[type=checkbox] {
         border: 0;
         border-top: 2px solid #f5f5f5;
         border-bottom: 2px solid #f5f5f5;
-
     }
 
     #gallery {
@@ -512,11 +508,6 @@ input[type=radio], input[type=checkbox] {
     .radio {
         display: block;
     }
-
-    
-
-
-
 }
 
 /* to readjust image size for smaller screens */
@@ -531,6 +522,4 @@ input[type=radio], input[type=checkbox] {
     #gallery {
         column-count: 1;
     }
-
-    
 }
