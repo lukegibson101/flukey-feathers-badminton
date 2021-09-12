@@ -264,6 +264,15 @@ hr {
 
 }
 
+/* join us */
+
+.float-left {
+    float:left;
+}
+
+.block {
+    display:block;
+}
 
 
 /* media queries */

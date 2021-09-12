@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!--Head-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,8 +24,8 @@
                 <div id="club-name">
                     <a href="index.html">
                         <a href="index.html" aria-label="Go to Flukey Feathers About us page"></a>
-                            <img id="flukey-logo" src="assets/images/flukey-feathers-logo.jpg" alt="Flukey Feathers Logo">
-                        </a>
+                        <img id="flukey-logo" src="assets/images/flukey-feathers-logo.jpg" alt="Flukey Feathers Logo">
+                    </a>
                     </a>
                 </div>
             </div>
@@ -48,20 +49,26 @@
         <form>
             <fieldset>
                 <legend>Your Details</legend>
-                
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="telephone">Telephone Number</label>
-                <input type="tel" id="telephone" name="tel" required>
+                <div class="float-left">
+                    <label for="name" class="block">Name</label>
+                    <input type="text" id="name" name="name" class="block" required>
+                </div>
+
+                <div class="float-left">
+                    <label for="email" class="block">Email</label>
+                    <input type="email" id="email" name="email" class="block" required>
+                </div>
+
+                <div class="float-left">
+                    <label for="telephone" class="block">Telephone Number</label>
+                    <input type="tel" id="telephone" name="tel" class="block" required>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Your Skill Level</legend>
                 <p>How would you rate your level of play?</p>
-                
+
                 <input type="radio" id="beginner" value="beginner" name="skill" required>
                 <label for="beginner">Beginner</label>
 
@@ -70,9 +77,9 @@
 
                 <input type="radio" id="advanced" value="advanced" name="skill">
                 <label for="advanced">Advanced</label>
-                
+
                 <p>Which sessions are you interested in?</p>
-                
+
                 <input type="checkbox" id="beginner" value="beginner" name="interest" required>
                 <label for="beginner">Beginner Coaching</label>
 
@@ -87,7 +94,7 @@
         </form>
     </section>
 
-    
+
 
     <!--footer-->
     <footer>
