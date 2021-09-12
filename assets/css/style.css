@@ -266,22 +266,33 @@ hr {
 
 /* join us */
 
+.join-us {
+    height: 100%;
+    width: 100%;
+    clear: both;
+}
+
+.form {
+    clear:both;
+}
+
 form {
     max-width:48rem;
-    margin: 0 auto 1rem;
+    margin: 1rem auto;
     background-color:red;
     padding: 0 1rem 1rem 1rem;
     border: 2px solid #2d302e;
     border-radius:5px;
-}
+    }
 
 legend {
     font-size: 110%;
     font-weight: 700;
-    padding: 1rem 0 5px;
+    padding-top: 1rem;
     text-transform:uppercase;
     
 }
+
 
 input[type=text],
 input[type=email],
@@ -293,8 +304,10 @@ input[type=tel] {
     padding-left: 5px;
 }
 
+
 label {
     margin-bottom: 5px;
+    margin: .5rem 1rem 0 0;
 }
 
 .float-left {
@@ -303,6 +316,10 @@ label {
 
 .block {
     display:block;
+}
+
+form p {
+    margin-top: .5rem;
 }
 
 

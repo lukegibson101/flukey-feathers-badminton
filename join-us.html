@@ -43,10 +43,12 @@
             <li><a href="join-us.html" class="active">Join Us</a></li>
         </ul>
     </nav>
-
-    <section>
-        <h2>Join Flukey Feathers today!</h2>
+    
+    <section class="join-us">
+        <div class="form"></div>
+    
         <form>
+            <h1>Join Flukey Feathers today!</h1>
             <fieldset>
                 <legend>Your Details</legend>
 
@@ -80,18 +82,25 @@
 
                 <p>Which sessions are you interested in?</p>
 
-                <input type="checkbox" id="beginner" value="beginner" name="interest" required>
-                <label for="beginner">Beginner Coaching</label>
-
-                <input type="checkbox" id="club-night" value="club-night" name="interest" required>
-                <label for="club-night">Club Night</label>
-
-                <input type="checkbox" id="league-match" value="league-match" name="interest" required>
-                <label for="league-match">League Training</label>
+                <div>
+                    <input type="checkbox" id="beginner" value="beginner" name="interest" required>
+                    <label for="beginner">Beginner Coaching</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="club-night" value="club-night" name="interest" required>
+                    <label for="club-night">Club Night</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="league-match" value="league-match" name="interest" required>
+                    <label for="league-match">League Training</label>
+                </div>
             </fieldset>
+            <hr>
             <input type="submit" name="submit" value="Submit">
             <input type="reset" name="reset" value="Reset">
         </form>
+        
+
     </section>
 
 
