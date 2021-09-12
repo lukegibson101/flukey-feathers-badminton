@@ -328,17 +328,9 @@ label {
     line-height: 1.5rem;
 }
 
-.float-left {
-    float: left;
-}
-
-.block {
-    display: block;
-}
-
 form p {
-    margin-top: .5rem;
-}
+    margin-top: .5em;
+    }
 
 .join-today {
     background-color: #2d302e;
@@ -374,6 +366,10 @@ form p {
 .reset:hover {
     background-color: #f5f5f5;
 
+}
+
+.radio {
+    display:inline;
 }
 
 .form-footer {
@@ -494,6 +490,10 @@ form p {
     .center-why-container {
         max-width: 15rem;
         max-height: 15rem;
+    }
+
+    .radio {
+        display:block;
     }
 
 }
