@@ -301,7 +301,7 @@ input[type=email],
 input[type=tel] {
     width: 100%;
     border: 2px solid #2d302e;
-    height: 1.5rem;
+    height: 2rem;
     box-sizing: border-box;
     padding-left: 0.5rem;
     background-color: #f5f5f5;
