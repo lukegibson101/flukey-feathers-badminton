@@ -9,6 +9,8 @@ The site is targeted towards potential or current badminton players based in or 
 1. [**Features on Individual Pages**](#features-on-individual-pages)
 1. [**Future Features to be Added**](#future-features-to-be-added)
 1. [**Testing**](#testing)
+1. [**Bugs**](#bugs)
+1. [**Other Changes**](#other-changes)
 
 ## **Planning Stage**
 
@@ -165,11 +167,29 @@ Lighthouse was very useful for picking up poor practices and helped with the fol
   * Added in more detailed meta tags as well as some missing alt tags on images
 
   ### **Validators**
-  ![Valid HTML]()![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)
+![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)
 
   All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. 
   No errors were found, however there were some warnings:
 1. gallery.html
  * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. - this is through design choice as the gallery page is consisting of images only 
 
- 
+ ## **Bugs**
+There is one know bug on the website. On the gallery page when reducing to 2 collums as the page resizes there is a noticeable amount of white space between the images and the footer. This happens on Chrome and Edge browsers but displays as it should on Firefox. Safari mobile also seems to be unaffected
+
+![Gallery Bug](docs/read-me/gallery-bug.png)
+
+## **Other Changes**
+I removed all <hr> tags from the site and replaced them with <div>, setting a style in CSS to create the same effect. This is because <hr> is now defined in semantic terms, rather than presentational terms. For my site I use <hr> as presentational only
+
+## **Deployment**
+I deployed the website on GitHub pages via the following:
+
+1. From the projects repository go to the **settings** tab
+1. On the left hand menu near the bottom click on the **pages** link
+1. Under **Source** click on the button "None" which will produce a drop down
+1. Click on **Main** and then click **Save**
+1. The following message will appear:  **Your site is ready to be published**
+1. After a few minutes the site will be published and the message will change to **Your site is published**
+
+You can access the live site via the following link [Flukey Feathers Badminton Club](https://gibbo101.github.io/flukey-feathers-badminton/)
