@@ -128,7 +128,7 @@ As the site changed in size I identified 4 key widths where changes needed to be
     * Footer links centralised to look better on a smaller screen
 1. **768px (Tablets)**
   * All Pages
-    * Text size reduced to 15px to allow text to fit their areas better whilst stil not affecting readability of the site
+    * Text size reduced to 15px to allow text to fit their areas better whilst still not affecting readability of the site
   * Club Sessions Page
     * Session times boxes resized to cover the entire screen to keep boxes well sized and readable
   * Gallery Page
