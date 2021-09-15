@@ -7,6 +7,8 @@ The site is targeted towards potential or current badminton players based in or 
 1. [**Planning Stage**](#planning-stage)
 1. [**Features Common to all Pages**](#features-common-to-all-pages)
 1. [**Features on Individual Pages**](#features-on-individual-pages)
+1. [**Future Features to be Added**](#future-features-to-be-added)
+1. [**Testing**](#testing)
 
 ## **Planning Stage**
 
@@ -97,6 +99,15 @@ I chose a color scheme that was in keeping with the Flukey Feathers color scheme
 * A background image is used behind the form. This is the same as on the club sessions page for consistency and is inline with the Flukey Feathers club ethos
 * The page is fully responsive with the form scaling to fit mobile screens
 
+## **Future Features to be Added**
+The Flukey Feathers site is currently at the minimum viable project stage. Future features to be added to increase site usability include:
+* A Burger Menu Icon added to the Nav bar on mobile devices that produces a drop down menu when tapped so the Nav bar takes up less space
+* A members only area
+ * A subs page where members can track what they have paid / what they owe
+ * A news page where bulletins can be posted for upcoming league matches / changes to session venues / times
+ * An upcoming events page where members can sign up to Badminton England events. E.g. Yonex All English Championships in Birmningham
+ * An affiliate links page to various badminton resources / service such as online shops where members can get exclusive discounts through Flukey Feathers
 
+ ## **Testing**
 
 
