@@ -11,6 +11,7 @@ The site is targeted towards potential or current badminton players based in or 
 1. [**Testing**](#testing)
 1. [**Bugs**](#bugs)
 1. [**Other Changes**](#other-changes)
+1. [**Deployment**](#deployment)
 
 ## **Planning Stage**
 
@@ -193,3 +194,18 @@ I deployed the website on GitHub pages via the following:
 1. After a few minutes the site will be published and the message will change to **Your site is published**
 
 You can access the live site via the following link [Flukey Feathers Badminton Club](https://gibbo101.github.io/flukey-feathers-badminton/)
+
+## **Credits**
+
+### **Content**
+* [Flukey Feathers](https://flukeyfeathers.co.uk/) all information on the website is in relation to Flukey Feathers badminton club and was used with their permission
+* The text in the **Why Play Badminton?** section on the about us page was taken from [everyone active](https://www.everyoneactive.com/content-hub/activities/9-reasons-to-try-badminton/)
+* The project was influenced by the Code Institutes code along project called Love running and coders coffee house. Whilst I have tried to deviate as much as possible and do my own thing, there may be some similarities in the code.
+* For general research when tackling something I required support on I generally relied on W3 Schhols for information
+
+### **Media**
+* The hero image and background images were taken from [Pexels](https://www.pexels.com/)
+* All other images are property of Flukey Feathers badminton club and was used with their permission
+
+### **Thanks**
+ * [Richard Wells](https://github.com/D0nni387) - Code Institute mentor who's advice and guidance supported me in the completion of this project
