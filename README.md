@@ -156,6 +156,7 @@ As the site changed in size I identified 4 key widths where changes needed to be
 
 ### **Lighthouse**
 ![Light House](docs/read-me/lighthouse.png)
+
 All pages have been tested with lighthouse for both mobile and desktop versions, with all pages scoring above 90 for all sections.
 Lighthouse was very useful for picking up poor practices and helped with the following: 
 1. Accessability
