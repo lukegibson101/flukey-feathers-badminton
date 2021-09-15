@@ -150,5 +150,26 @@ As the site changed in size I identified 4 key widths where changes needed to be
   * Gallery Page
     * Collums reduced to 1 to maintain decent image size
 
-    
 
+### **Lighthouse**
+![Light House](docs/read-me/lighthouse.png)
+All pages have been tested with lighthouse for both mobile and desktop versions, with all pages scoring above 90 for all sections.
+Lighthouse was very useful for picking up poor practices and helped with the following: 
+1. Accessability
+  * Use of aria-labels on links in the navigation bar
+  * highlighting duplicate unique names for labels on the Join Us page which could have confused screen readers
+1. Performance
+  * Converted all images to webp. Webp is a new image format which is significantly smaller in file size to png and jpg and will be the new standard for images in the future. Before converting my images i checked (https://caniuse.com/webp) for compatability. It is compatable on all browsers expect for IE 11 and is compatable on macOS 11 Big Sur and later. This gave what I felt to be an acceptable level of compatability to warrent its use
+  * Resized some images to be smaller so their file size was more acceptable when loading pages
+1. SEO
+  * Added in more detailed meta tags as well as some missing alt tags on images
+
+  ### **Validators**
+  ![Valid HTML]()![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)
+
+  All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. 
+  No errors were found, however there were some warnings:
+1. gallery.html
+ * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. - this is through design choice as the gallery page is consisting of images only 
+
+ 
