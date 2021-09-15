@@ -141,5 +141,14 @@ As the site changed in size I identified 4 key widths where changes needed to be
   * Club Sessions Page
     * Session times boxes now display in a block list and their borders changed to top and bottom rather than each side
   * Gallery Page
-    * 
+    * Collumns reduced to 2
+  * Join Us Page
+    * Radio inputs set to display block to vertically display
+1. **400px (Smaller screens)**
+  * About Us Page
+    * Images made smaller to fit screen
+  * Gallery Page
+    * Collums reduced to 1 to maintain decent image size
+
+    
 
