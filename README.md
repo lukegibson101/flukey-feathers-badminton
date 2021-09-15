@@ -161,9 +161,9 @@ All pages have been tested with lighthouse for both mobile and desktop versions,
 Lighthouse was very useful for picking up poor practices and helped with the following: 
 1. Accessability
   * Use of aria-labels on links in the navigation bar
-  * highlighting duplicate unique names for labels on the Join Us page which could have confused screen readers
+  * Highlighting duplicate unique names for labels on the Join Us page which could have confused screen readers
 1. Performance
-  * Converted all images to webp. Webp is a new image format which is significantly smaller in file size to png and jpg and will be the new standard for images in the future. Before converting my images i checked (https://caniuse.com/webp) for compatability. It is compatable on all browsers expect for IE 11 and is compatable on macOS 11 Big Sur and later. This gave what I felt to be an acceptable level of compatability to warrent its use
+  * Converted all images to webp. Webp is a new image format which is significantly smaller in file size to png and jpg and will be the new standard for images in the future. Before converting my images i checked (https://caniuse.com/webp) for compatability. It is compatable on all browsers expect for IE 11 and is compatable on macOS 11 Big Sur and later. This gave what I felt to be an acceptable level of compatability to warrant its use
   * Resized some images to be smaller so their file size was more acceptable when loading pages
 1. SEO
   * Added in more detailed meta tags as well as some missing alt tags on images
@@ -182,7 +182,7 @@ There is one know bug on the website. On the gallery page when reducing to 2 col
 ![Gallery Bug](docs/read-me/gallery-bug.png)
 
 ## **Other Changes**
-I removed all <hr> tags from the site and replaced them with <div>, setting a style in CSS to create the same effect. This is because <hr> is now defined in semantic terms, rather than presentational terms. For my site I use <hr> as presentational only
+I removed all \<hr\> tags from the site and replaced them with \<div\>, setting a style in CSS to create the same effect. This is because \<hr\> is now defined in semantic terms, rather than presentational terms. For my site I use \<hr\> as presentational only
 
 ## **Deployment**
 I deployed the website on GitHub pages via the following:
