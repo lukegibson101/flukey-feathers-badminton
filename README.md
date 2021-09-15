@@ -109,5 +109,37 @@ The Flukey Feathers site is currently at the minimum viable project stage. Futur
  * An affiliate links page to various badminton resources / service such as online shops where members can get exclusive discounts through Flukey Feathers
 
  ## **Testing**
+I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools to test responsiveness. I have also asked users to review on mobiles on both Android and IOS and had no issues fed back. 
 
+### **Responsiveness**
+![Am I Responsive?](docs/read-me/am-i-responsive.png) 
+Whilst the site was designed as Desktop First extensive testing has been done to ensure the site is fully responsive on smaller screens. As well as tesing in dev tools and using various mobile devices I also used (http://ami.responsivedesign.is/) to check for responsiveness. No website breaking issues were found.
+As the site changed in size I identified 4 key widths where changes needed to be made.
+1. **992px (Laptops)**
+  * About US Page
+    * Left and right text areas made to take up more page width
+    * Middle image pushed to under text areas
+  * Club Sessions Page
+    * Session times boxes made to be wider so they weren't so squished on the page
+  * Footer
+    * Footer links centralised to look better on a smaller screen
+1. **768px (Tablets)**
+  * All Pages
+    * Text size reduced to 15px to allow text to fit their areas better whilst stil not affecting readability of the site
+  * Club Sessions Page
+    * Session times boxes resized to cover the entire screen to keep boxes well sized and readable
+  * Gallery Page
+    * Collums reduced from 4 to 3 so images appeared larger on the smaller screen, maintaining useability
+1. **600px (Mobiles)**
+  * All Pages
+    * Hero Image replaced with mobile version. Reducing height and using a smaller version of the original image to decrease loading times as well as take up less screen height space
+    * Flukey Feathers logo position changed to be closer to the top left. Also resized image size to a % value rather than fixed allowing it to scale to the page size and not dominate the hero image
+    * Navigation Bar changed to display as a block list rather than horizantal to stop it breaking on smaller screens
+  * About Us Page
+    * Description boxes now display as block rather than side by side and given a width of 90%
+    * Why play headers bottom margin also slightly tweaked for mobiles
+  * Club Sessions Page
+    * Session times boxes now display in a block list and their borders changed to top and bottom rather than each side
+  * Gallery Page
+    * 
 
