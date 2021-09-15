@@ -16,7 +16,6 @@ body {
     color: #2d302e
 }
 
-
 /* headers and logos */
 
 h1,
@@ -266,7 +265,6 @@ footer {
     padding: 1rem;
 }
 
-
 form {
     max-width: 48rem;
     margin: 0 auto;
@@ -295,7 +293,6 @@ legend {
     text-transform: uppercase;
 }
 
-
 input[type=text],
 input[type=email],
 input[type=tel] {
@@ -316,7 +313,6 @@ input[type=tel]:focus {
 .input {
     margin-top: 0.5rem;
 }
-
 
 label {
     margin-bottom: 5px;
@@ -384,8 +380,6 @@ input[type=checkbox] {
     font-size: 80%;
 }
 
-
-
 /* Gallery */
 
 #gallery {
@@ -432,8 +426,6 @@ input[type=checkbox] {
         padding: 0 10% 0 10%;
     }
 }
-
-
 
 /* tablets */
 
