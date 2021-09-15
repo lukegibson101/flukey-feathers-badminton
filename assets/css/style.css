@@ -16,6 +16,7 @@ body {
     color: #2d302e
 }
 
+
 /* headers and logos */
 
 h1,
@@ -163,8 +164,8 @@ footer {
     padding-bottom: 2rem;
 }
 
-hr {
-    border-top: 1px solid;
+.hr {
+    border-top: 2px solid;
     width: 100%;
     margin: 5px 0;
 }
