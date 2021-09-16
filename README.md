@@ -184,7 +184,7 @@ Lighthouse was very useful for picking up poor practices and helped with the fol
  * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. - this is through design choice as the gallery page is consisting of images only 
 
  ## **Bugs**
-There is one know bug on the website. On the gallery page when reducing to 2 collums as the page resizes there is a noticeable amount of white space between the images and the footer. This happens on Chrome and Edge browsers but displays as it should on Firefox. Safari mobile also seems to be unaffected
+There is one know bug on the website. On the gallery page when reducing to 2 collums as the page resizes there is a noticeable amount of white space between the images and the footer. This happens on Chrome and Edge browsers but displays as it should on Firefox. Safari mobile also seems to be unaffected. As a fix, the 2 collums were removed and the site now goes straight to 1 collumn when resizing. The gallery background was also change on 1 collumn to the same as the footer to hide the 1 pixel gap that was created and make the transition from gallery pictures to footer seemless
 
 ![Gallery Bug](docs/read-me/gallery-bug.png)
 
