@@ -434,6 +434,10 @@ input[type=checkbox] {
         font-size: 15px;
     }
 
+    #navigation a {
+        font-size: 1.5em;
+    }
+
     #times {
         padding: 0;
     }
@@ -495,7 +499,8 @@ input[type=checkbox] {
     }
 
     #gallery {
-        column-count: 2;
+        column-count: 1;
+        background-color: #990000;
     }
 
     .radio {
@@ -510,9 +515,5 @@ input[type=checkbox] {
     .center-why-container {
         max-width: 15rem;
         max-height: 15rem;
-    }
-
-    #gallery {
-        column-count: 1;
     }
 }
