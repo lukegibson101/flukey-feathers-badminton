@@ -99,6 +99,7 @@ I chose a color scheme that was in keeping with the Flukey Feathers color scheme
 ![Gallery](docs/read-me/gallery.png)
 * The gallery will provide supporting images to the user so they can see what various sessions look like
 * The gallery is valuable as the user can easily identify whether the club is something they are looking for or not
+* The user can visually see the Flukey Feathers is an inclusive, friendly club to aid in their decision making process
 
 ### **Join Us Page**
 ![Join Us](docs/read-me/join-us.png)
