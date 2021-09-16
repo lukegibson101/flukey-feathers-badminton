@@ -38,7 +38,11 @@ Links to the different pages:
 There was some deviation from the initial design as I implemented each page to improve the user experience but in general I stayed true to the initial design.
 
 ### **Color Scheme**
-I chose a color scheme that was in keeping with the Flukey Feathers color scheme (red) whilst also being  easy to read for the user, through the use of back ground images and the navigation / footer color schemes, opting for a smokey white background and dark grey text in areas where these weren't used. 
+I chose a color scheme that was in keeping with the Flukey Feathers color scheme (#990000) whilst also being  easy to read for the user, through the use of back ground images and the navigation / footer color schemes, opting for a smokey white background (#f5f5f5) and dark grey text (#2d302e) in areas where these weren't used. I used (https://userway.org/) to check the contrasting colors worked well.
+ * Main background
+ ![Main Background color scheme](docs/read-me/contrast-check-main-bg.png)
+ * Navigation and Footer
+ ![Navigation and Footer](docs/read-me/contrast-check-nav-footer.png)
 
 ## **Features Common to all Pages**
 ### **Hero Image**
