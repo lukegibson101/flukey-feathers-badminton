@@ -45,7 +45,7 @@ I chose a color scheme that was in keeping with the Flukey Feathers color scheme
 
 ![Hero Image](assets/images/hero-image.webp)
 * Designed to catch the eye when loading the page
-* In theme with the FLukey Feathers club it features a shuttle cock on a badminton court
+* In theme with the Flukey Feathers club it features a shuttle cock on a badminton court
 * A smaller version of the hero image is used for mobile layouts so it take up less screen real estate and doesn't dominate the page
 
 ### **Club Logo**
