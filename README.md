@@ -109,7 +109,7 @@ I chose a color scheme that was in keeping with the Flukey Feathers color scheme
 * The page is fully responsive with the form scaling to fit mobile screens
 
 ## **Future Features to be Added**
-The Flukey Feathers site is currently at the minimum viable project stage. Future features to be added to increase site usability include:
+The Flukey Feathers site is currently at the minimum viable product stage. Future features to be added to increase site usability include:
 * A Burger Menu Icon added to the Nav bar on mobile devices that produces a drop down menu when tapped so the Nav bar takes up less space
 * A members only area
  * A subs page where members can track what they have paid / what they owe
