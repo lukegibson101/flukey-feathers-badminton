@@ -3,6 +3,8 @@
 Flukey Feathers is a site that is designed to help people choose Badminton as a sport to play and Flukey Feathers as the club to join no matter what their skill set is.
 The site is targeted towards potential or current badminton players based in or around the Bournemouth area who are looking for somewhere to play that is both friendly and social. 
 
+<a>https://lukegibson101.github.io/flukey-feathers-badminton/</a>
+
 ## Table of contents
 1. [**Planning Stage**](#planning-stage)
 1. [**Features Common to all Pages**](#features-common-to-all-pages)
